@@ -1,2 +1,6 @@
+PG_HEADER_PATH = /usr/include/postgresql/libpq-fe.h
+
 zig_translate:
-	zig translate-c /usr/include/postgresql/libpq-fe.h -lc > src/postgres.zig
+	zig translate-c $(PG_HEADER_PATH) -lc > src/postgres.zig
+
+
