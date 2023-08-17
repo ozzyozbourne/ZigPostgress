@@ -6,4 +6,4 @@ zig-out/
 /build-*/
 /docgen_tmp/
 .idea
-src/postgress.zig
+src/postgres.zig
